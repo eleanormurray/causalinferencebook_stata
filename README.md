@@ -1,6 +1,6 @@
 # _Causal Inference_ Stata Code
 
-This repo contains Stata code for the book Causal Inference Part II, by Miguel Hernán and James Robins (book site).
+This repo contains Stata code for the book Causal Inference: What If, by Miguel Hernán and James Robins [book site](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/). 
 
 The code here corresponds to the SAS programs found at the book site.
 
