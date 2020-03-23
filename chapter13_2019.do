@@ -65,7 +65,7 @@ expand 2 if interv == 0, generate(interv2)
 *now, change the value of 'interv' to -1 in one of the copies so that there are unique values of interv for each copy*
 replace interv = -1  if interv2 ==1
 drop interv2 
-*check that the data has the structure you want: there should be 1566 people in each of the 3 levels of interv*
+*check that the data has the structure you want: there should be 20 people in each of the 3 levels of interv*
 tab interv
 *two of the copies will be for computing the standardized result*
 *for these two copies (interv = 0 and interv = 1), set the outcome to missing and force qsmk to either 0 or 1, respectively*
