@@ -33,7 +33,7 @@ label var kg "Weight, kg"
 by qsmk, sort: egen cigs = mean(smokeintensity) if smokeintensity < . 
 label var cigs "Cigarettes/day"
 by qsmk, sort: egen meansmkyrs = mean(smokeyrs) if smokeyrs < .
-label var kg "Years smoking"
+label var meansmkyrs "Years smoking"
 by qsmk, sort: egen noexer = mean(100 * (exercise == 2)) if exercise < . 
 label var noexer "Little/no exercise"
 by qsmk, sort: egen inactive = mean(100 * (active==2)) if active < . 
