@@ -27,7 +27,7 @@ drop if `var'==.
 /*Create categorical instrument*/
 gen byte highprice  = (price82 > 1.5 & price82 < .)
 
-/*Calculate P[Z|A=a]*/
+/*Calculate P[A|Z=Z]*/
 tab highprice qsmk, row
 
 /*Calculate P[Y|Z=z]*/
